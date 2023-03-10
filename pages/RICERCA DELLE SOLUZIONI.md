@@ -1,0 +1,10 @@
+- ESPANSIONE
+	- si genera l'albero degli stati tramite la funzione successore
+- STRATEGIA DI RICERCA
+	- ad ogni passo si decidere quale albero espandere
+-
+-
+-
+-
+-
+-
