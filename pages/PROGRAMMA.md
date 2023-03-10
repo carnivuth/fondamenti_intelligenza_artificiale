@@ -15,3 +15,4 @@
 	- generalità maggiore
 	- flessibilità maggiore
 - ![image.png](../assets/image_1678436168256_0.png)
+- [[ESEMPIO PRESCRIBE DRUG]]
