@@ -8,6 +8,7 @@
 	- viene selezionato per l'espansione il nodo a costo minimo
 	- il goal test viene effettuato prima dell'espansione del nodo
 - #### STRATEGIA DEPTH-FIRST
+  id:: 640b20a1-4658-4b89-b6a5-654c8667fd14
 	- espande i nodi piu profondi
 		- a parita di profondita la selezione è arbitraria
 	- ((640b1c39-c598-41a4-8a47-e7417df9bbb8)) ridotta rispetto a ((640b1d0a-beb1-4247-b1ba-59bf87d88dec)) non è necessario tenere attivi tutti i rami dell'albero una volta esplorati
