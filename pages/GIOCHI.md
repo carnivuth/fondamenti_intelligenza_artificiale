@@ -1,0 +1,13 @@
+- ambienti in cui l'agente non è l'unica entità a interagire con il mondo
+- l'agente deve ricercare la soluzione con degli avversari
+- lo svolgersi del gioco può essere rappresentato come un albero con uno stato iniziale come radice (es configurazione della scacchiera di partenza)
+- ### costruzione dell'albero
+	- l'agente costruisce l'albero delle possibili scelte per determinare quale mossa eseguire
+	- alla prossima iterazione l'agente ricostrusce l'albero partendo dal nuovo stato iniziale
+- ## ALGORITMO MIN MAX
+	- pensato per determinare la strategia ottimale per trovare la prossima mossa
+	- punta a determinare la mossa migliore per max ipotizzando che min faccia la mossa a lui più conveniente
+	-
+- [[STUDENT CHALLENGE TABLUT]]
+-
+-
