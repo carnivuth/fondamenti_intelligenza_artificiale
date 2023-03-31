@@ -52,6 +52,7 @@
 		- a ogni assegnamento vengono modificati i domini delle variabili non assegnate
 		- escludo a priori casi di fallimento certi a priori
 		- #### ALGORITMI DI PROPAGAZIONE
+		  id:: 6426bb50-4d3c-4bb7-885b-03f5d4cf0b9a
 			- algoritmi in grado di escludere rami errati a priori
 			- ##### FORWARD CHECKING
 				- dopo ogni assegnamento viene  eseguita la propagazione dei vincoli
@@ -77,9 +78,21 @@
 				- algoritmo MRV e most-constrained principle
 			- ##### STATICHE
 				- ordinamento definito a priori
+- ### APPROCCI D'ATTACCO
+	- ((6426bb50-4d3c-4bb7-885b-03f5d4cf0b9a))
+	- #### TECNICHE DI CONSISTENZA
+		- rimuovono dai domini valori che a priori non fanno parte della soluzione
+		- CSP rappresentato come **grafo**
+		- le **variabili sono nodi** del grafo
+		- i **vincoli sono archi** del grafo
+			- (*vincoli ternari possono essere tradotti in binari aggiungendo variabili fantasma*)
+		- ![image.png](../assets/image_1680262376917_0.png)
+		- ##### esempio map coloring
+			- ![image.png](../assets/image_1680262551303_0.png)
+		- #### CONSISTENZA
+			- un arco è consistente se per ogni valore di Xi esiste almeno un valore di Y per cui il vncolo è soddisfatto
 		-
-			-
-		-
-		-
+	-
+	-
 	-
 -
