@@ -95,7 +95,11 @@
 				- ![image.png](../assets/image_1680263009585_0.png)
 			- il processo di rendere un grafo consistente è un processo **iterativo** a ogni modifica di un dominio il test sulla consistenza va ripetuto
 				- ![image.png](../assets/image_1680263083451_0.png)
-				-
+			- il processo termina quando non viene modificato nessun dominio
+			- ##### IMPLEMENTAZIONE
+				- coda degli archi di cui testare la consistenza
+				- a ogni modifica del dominio gli archi a esso legati vengono inseriti nella coda
+				- si termina quando la coda è vuota
 		-
 	-
 	-
