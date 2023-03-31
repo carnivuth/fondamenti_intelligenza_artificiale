@@ -26,7 +26,7 @@
 		- nodi in cui tutte le variabili hanno un valore
 	- **operatori**
 		- assegnamenti di valori alle variabili
-	- ##### possibile algoritmo di ricerca
+	- ##### POSSIBILI ALGORITMI DI RICERCA
 		- #### ALGORITMO GENERATE AND TEST
 		  id:: 6426b5e0-9f44-421d-ad8d-7e9b1b479b99
 			- ![image.png](../assets/image_1680169415005_0.png)
@@ -43,8 +43,12 @@
 				- ![image.png](../assets/image_1680259082114_0.png)
 			- ##### implementazione
 				- ![image.png](../assets/image_1680259201397_0.png)
-			-
-			-
-			-
+	- questi algoritmi prevedono di utilizzare i vincoli su variabili gia assegnate
+	- non sono in grado di anticipare eventuali stati di fallimento
+		- ##### esempio
+			- ![image.png](../assets/image_1680259683232_0.png)
+	- questo limite è dovuto all'uso a **posteriori dei vincoli**
+		-
+		-
 	-
 -

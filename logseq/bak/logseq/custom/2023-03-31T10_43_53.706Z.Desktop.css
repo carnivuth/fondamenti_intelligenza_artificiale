@@ -1,8 +1,11 @@
 h3 {
   color:red ;
 }
+h2 {
+  color:blue ;
+}
 h4 {
-  color:green ;
+  color: green ;
 }
 
 h5 {
@@ -12,5 +15,6 @@ i{
   color: grey;
 }
 b{
-  color: green;
+  color: red;
+  font-size: 18px;
 }
