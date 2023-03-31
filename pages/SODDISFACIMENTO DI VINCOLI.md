@@ -48,6 +48,18 @@
 		- ##### esempio
 			- ![image.png](../assets/image_1680259683232_0.png)
 	- questo limite è dovuto all'uso a **posteriori dei vincoli**
+	- soluzione: utilizzare vincoli in **maniera attiva**
+		- a ogni assegnamento vengono modificati i domini delle variabili non assegnate
+		- escludo a priori casi di fallimento certi a priori
+		- #### ALGORITMI DI PROPAGAZIONE
+			- algoritmi in grado di escludere rami errati a priori
+			- ##### FORWARD CHECKING
+				- dopo ogni assegnamento viene  eseguita la propagazione dei vincoli
+				- vengono eliminati i valori dai domini delle variabili non istanziate che risultano incompatibili con i
+			- ##### PARTIAL LOOK AHEAD
+			- ##### FULL LOOK AHEAD
+			- il dominio si riduce in maniera diversa
+			-
 		-
 		-
 	-
