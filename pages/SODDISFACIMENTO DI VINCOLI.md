@@ -1,0 +1,38 @@
+- molti problemi possono essere visti come soddisfacimento di vincoli
+- CSP (constraint satisfaction problem)
+- **OBBIETTIVO**
+	- trovare uno stato del problema che li soddisfa
+- #### DEFINIZIONE
+- (x1,....,xn) insieme di variabili
+- (d1,......,dn) valori ammissibili
+- #### ESEMPI
+	- ##### ESEMPIO DELLE 8 REGINE
+		- ![image.png](../assets/image_1680168077645_0.png)
+		- ![image.png](../assets/image_1680168097248_0.png)
+	- ##### ESEMPIO DELLO SCHEDULING
+		- assegnare attività che hanno una certa durata a risorse
+		- ![image.png](../assets/image_1680168216026_0.png)
+	- ##### ESEMPIO MAP COLORING
+		- ![image.png](../assets/image_1680168405449_0.png)
+		- ![image.png](../assets/image_1680168428930_0.png)
+	- ##### ESEMPIO CRIPTOARITMETICA
+		- ![image.png](../assets/image_1680168770149_0.png)
+- #### CSP COME PROBLEMA DI RICERCA NELLO SPAZIO DEGLI STATI
+	- **stato**
+		- è dato dalle variabili e  da un set dei possibili valori determinati dai domini
+	- **goal test**
+		- è l'insieme dei vincoli che quelle variabili devono rispettare
+	- **nodi foglia**
+		- nodi in cui tutte le variabili hanno un valore
+	- **operatori**
+		- assegnamenti di valori alle variabili
+	- ##### possibile algoritmo di ricerca
+		- ![image.png](../assets/image_1680169415005_0.png)
+		- viene prima generata la soluzione  e poi testato se rispetta i vincoli richiesti dal problema
+		- vincoli considerati in maniera passiva
+		- questo approccio fa si che la complessità esploda rapidamente
+			- si possono espandere alberi che sono errati fin dalla prima variabile
+		- corretto approccio **rilevare subito i rami di fallimento**
+		-
+	-
+-

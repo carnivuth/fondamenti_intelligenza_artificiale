@@ -41,6 +41,6 @@
 				- **EFFICACIA**
 					- i tagli sono efficaci quando i nodi migliori sono valutati per primi
 					- se tutti i nodi sono ordinati per posizionare per primi i nodi migliori si passa da b^d a b^(d/2)
-					- l'albero può essere esplorato fino al doppio della profondita
+					- l'albero può essere esplorato fino al doppio della profondità
 -
 -
