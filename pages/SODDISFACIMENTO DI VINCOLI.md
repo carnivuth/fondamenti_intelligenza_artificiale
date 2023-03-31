@@ -27,12 +27,24 @@
 	- **operatori**
 		- assegnamenti di valori alle variabili
 	- ##### possibile algoritmo di ricerca
-		- ![image.png](../assets/image_1680169415005_0.png)
-		- viene prima generata la soluzione  e poi testato se rispetta i vincoli richiesti dal problema
-		- vincoli considerati in maniera passiva
-		- questo approccio fa si che la complessità esploda rapidamente
-			- si possono espandere alberi che sono errati fin dalla prima variabile
-		- corretto approccio **rilevare subito i rami di fallimento**
-		-
+		- #### ALGORITMO GENERATE AND TEST
+		  id:: 6426b5e0-9f44-421d-ad8d-7e9b1b479b99
+			- ![image.png](../assets/image_1680169415005_0.png)
+			- viene prima generata la soluzione  e poi testato se rispetta i vincoli richiesti dal problema
+			- vincoli considerati in maniera passiva
+			- non viene propagata nessuna forma di *conoscenza*
+			- questo approccio fa si che la complessità esploda rapidamente
+				- si possono espandere alberi che sono errati fin dalla prima variabile
+			- corretto approccio **rilevare subito i rami di fallimento**
+		- #### ALGORITMO STANDARD BACKTRACKING
+			- a ogni istanziazione di variabile viene eseguito un controllo sulla correttezza dei vincoli
+			- più efficiente di ((6426b5e0-9f44-421d-ad8d-7e9b1b479b99))
+			- ##### esempio
+				- ![image.png](../assets/image_1680259082114_0.png)
+			- ##### implementazione
+				- ![image.png](../assets/image_1680259201397_0.png)
+			-
+			-
+			-
 	-
 -
