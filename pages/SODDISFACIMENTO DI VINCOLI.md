@@ -55,10 +55,29 @@
 			- algoritmi in grado di escludere rami errati a priori
 			- ##### FORWARD CHECKING
 				- dopo ogni assegnamento viene  eseguita la propagazione dei vincoli
-				- vengono eliminati i valori dai domini delle variabili non istanziate che risultano incompatibili con i
+				- vengono eliminati i valori dai domini delle variabili non istanziate che risultano incompatibili con i vincoli
+				- se si arriva a un dominio vuoto l'algoritmo fallisce **senza tentare backtracking**
 			- ##### PARTIAL LOOK AHEAD
+				- oltre a eseguire la propagazione dei vincoli si testa se esiste un valore per cui sia possibile trovare per tutte le altre variabili un valore compatibile
+				- **CONSIDERA SOLO LA VARIABILE CHE È STATA ASSEGNATA NON ESEGUE TEST SUCCESSIVI**
 			- ##### FULL LOOK AHEAD
-			- il dominio si riduce in maniera diversa
+				- viene eseguita una propagazione dei vincoli considerando anche le variabili successive a quella assegnata
+				- **CONSIDERA SIA LA COMPATIBILITÀ CON L'ATTUALE ASSEGNAMENTO E QUELLA CON GLI ASSEGNAMENTI SUCCESSIVI**
+			- #### differenze
+				- il dominio si riduce in maniera diversa
+				- aumenta la complessita computazionale dell'algoritmo
+		- #### GRADI DI LIBERTA
+			- ##### EURISTICHE SULLA STRATEGIA DI RICERCA
+				- scelta di ordinamento delle variabili
+				- scelta nell'ordine di associazione dei valori alle variabili
+			- propagazione effettuata in ciascun nodo
+		- #### classificazioni delle euristiche
+			- ##### DINAMICHE
+				- ordinamento definito a runtime
+				- algoritmo MRV e most-constrained principle
+			- ##### STATICHE
+				- ordinamento definito a priori
+		-
 			-
 		-
 		-
