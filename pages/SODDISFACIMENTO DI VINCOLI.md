@@ -81,7 +81,10 @@
 - ### APPROCCI D'ATTACCO
 	- ((6426bb50-4d3c-4bb7-885b-03f5d4cf0b9a))
 	- [[TECNICHE DI CONSISTENZA]]
-	-
-	-
+- ### CONSTRAINT SOLVER IN PRATICA
+	- i constraint solver vengono implementati solitamente usando algoritmi di labeling e sfruttando particolari caratteristiche del dominio
+	- (*X::[1..10], Y::[1..10], X > Y. Non importa controllare tutti i valori nei due domini, ma basta controllare i bound. In particolare questo vincolo è AC se min(X) > min(Y) and max(X) > max(Y)*)
+- ### CONSTRAINT OPTIMIZATION PROBLEM
+	- CSP in cui viene aggiunto un **obbiettivo di ottimizzazione** (*ricerca della soluzione ottima secondo qualche parametro*)
 	-
 -
