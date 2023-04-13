@@ -86,5 +86,7 @@
 	- (*X::[1..10], Y::[1..10], X > Y. Non importa controllare tutti i valori nei due domini, ma basta controllare i bound. In particolare questo vincolo è AC se min(X) > min(Y) and max(X) > max(Y)*)
 - ### CONSTRAINT OPTIMIZATION PROBLEM
 	- CSP in cui viene aggiunto un **obbiettivo di ottimizzazione** (*ricerca della soluzione ottima secondo qualche parametro*)
+	- si aggiunge una variabile che rappresenta la **funzione obbiettivo**
+	- ogni volta che viene risolto il CSP si aggiorna il vincolo della funzione obbiettivo, una volta che sono esplorate tutte le soluzioni si ottiene la funzione obbietit
 	-
 -
