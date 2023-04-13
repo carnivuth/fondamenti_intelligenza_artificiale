@@ -1,0 +1,12 @@
+- consente di analizzare le inferenze
+- controllare la validità di predicati
+- fare deduzioni
+- stabilire la consistenza di una teoria
+- ## LOGICA CLASSICA
+	- due principali tipologie
+		- ### LOGICA PROPOSIZIONALE
+		- ### LOGICA DEI PREDICATI
+			- possibile definire variabili e quantificazioni
+			- #### SINTASSI
+				- ![image.png](../assets/image_1681377136450_0.png)
+			- #### SEMANTICA
