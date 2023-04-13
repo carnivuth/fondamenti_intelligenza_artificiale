@@ -8,5 +8,11 @@
 		- ### LOGICA DEI PREDICATI
 			- possibile definire variabili e quantificazioni
 			- #### SINTASSI
+				- ##### COSTANTI
+					- singole entità del dominio
+				- ##### VARIABILI
+					- entità non note al dominio
+				-
 				- ![image.png](../assets/image_1681377136450_0.png)
 			- #### SEMANTICA
+				-
