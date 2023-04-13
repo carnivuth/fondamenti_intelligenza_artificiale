@@ -8,6 +8,7 @@
 	- ![image.png](../assets/image_1680262551303_0.png)
 - ## ARCO CONSISTENZA
 	- un arco è consistente se per ogni valore di Xi esiste almeno un valore di Y per cui il vncolo è soddisfatto
+	- ![image.png](../assets/image_1681372939434_0.png)
 	- ##### ESEMPIO ARCO NON CONSISTENTE
 		- ![image.png](../assets/image_1680263009585_0.png)
 	- il processo di rendere un grafo consistente è un processo **iterativo** a ogni modifica di un dominio il test sulla consistenza va ripetuto
@@ -18,5 +19,7 @@
 		- a ogni modifica del dominio gli archi a esso legati vengono inseriti nella coda
 		- si termina quando la coda è vuota
 	- ## PERCORSO CONSISTENTE
-		-
+		- ![image.png](../assets/image_1681373341960_0.png)
+		- #### TEOREMA SULLA PATH CONSISTENZA
+			- se ogni cammino di lunghezza 2 è path consistente allora lo è tutta la rete
 -
