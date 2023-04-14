@@ -59,4 +59,5 @@
 						- ##### esempio FBF logicamente valida
 							- `A OR !A`
 				- ### CONSEGUENZA LOGICA
-					- dato un insieme di formule S una formula F è conseguenza logica se e solo se ogni interpretazione I che è un modello per S lo è anche per F
+					- dato un insieme di formule S una formula F è conseguenza logica se e solo se **ogni interpretazione I che è un modello per S lo è anche per F**
+					- concetto fondamentale per derivare conoscenza dalla conoscenza
