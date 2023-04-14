@@ -64,3 +64,23 @@
 					- #### PROPRIETÀ
 						- se F è conseguenza logica di S allora `S U ~F` è **insoddisfacibile** (*ragionamento per assurdo*)
 						- utile anche per dimostrare che F è conseguenza logica di S
+				- ### SISTEMI DI REFUTAZIONE
+					- sistemi che sfruttano le proprietà delle conseguenze logiche per dimostrarne la conseguenza logica
+					- ![image.png](../assets/image_1681469217343_0.png)
+				- ### TEORIA ASSIOMATICA
+					- teoria mirata a derivare da fatti ritenuti veri altri fatti veri
+					- #### ASSIOMI
+						- FBF ritenute vere
+					- #### CRITERI DI MANIPOLAZIONE SINTATTICA
+						- regole di inferenza che generano FBF da FBF
+					- #### SCOPO
+						- ottenere nuove formule sintatticamente corrette
+					- #### COMPLETEZZA
+						- se tutte le FBF che seguono logicamente dalla teoria possono essere dimostrati partendo dagli assiomi
+					- #### CORRETTEZZA
+						- i teoremi seguono logicamente dagli assiomi
+				- ### DECIDIBILITÀ
+					- una teoria è decidibile se esiste un algoritmo in grado di stabilire in tempo finito se una FBF è un teorema o no
+					- il calcolo dei predicati del primo ordine è **semidecidibile** se la FBF è un teorema è in grado di dimostrarlo ma se non lo è non è detto che termini
+					-
+					-
