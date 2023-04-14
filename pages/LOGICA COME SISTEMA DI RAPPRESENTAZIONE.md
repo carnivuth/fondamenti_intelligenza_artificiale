@@ -36,16 +36,24 @@
 				- necessario definire un interpretazione dei simboli che costituisce l'associazione tra la realtà del dominio in questione e il suo modello che lo rappresenta
 				- **non si può determinare a priori se una formula è vera o falsa**
 				- ### INTERPRETAZIONE
+				  id:: 6437cdea-3c6c-4a5a-9a4f-fe31ab35c44b
 					- dato un linguaggio del primo ordine definisce un insieme D tale che
 						- a ogni costante si associa un simbolo di D
 						- a ogni  ((6437c86a-e75b-49aa-9772-3530ef5aa06c)) una funzione F:D^n->D
 						- a ogni ((6437c863-5f26-4d71-898b-7dba5defde07)) si associa un sottoinsieme di D^n
-				- ##### esempio
-					- ![image.png](../assets/image_1681378600380_0.png)
-				- #### VALORE DI VERITÀ DI UNA FBF
-					- una formula atomica ground è vera se il predicato è soddisfatto
-					- il valore di verita una formula composta si ottiene dalle tabelle della verita degli operatori che la compongono
-					- ![image.png](../assets/image_1681379167531_0.png)
-					-
-				-
+					- ##### esempio
+						- ![image.png](../assets/image_1681378600380_0.png)
+					- #### VALORE DI VERITÀ DI UNA FBF
+						- una formula atomica ground è vera se il predicato è soddisfatto
+						- il valore di verita una formula composta si ottiene dalle tabelle della verita degli operatori che la compongono
+						- ![image.png](../assets/image_1681379167531_0.png)
+				- ### MODELLI
+					- data un ((6437cdea-3c6c-4a5a-9a4f-fe31ab35c44b)) I una FBF chiusa F
+					- **I è un modello per F se F è vera in I**
+					- #### SODDISFACIBILITÀ
+						- F è soddisfacibile se **esiste I modello per F**
+						- ##### esempio FBF non soddisfacibile
+							- `A and !A`
+					- #### FBF LOGICAMENTE VALIDA
+						- se ogni ((6437cdea-3c6c-4a5a-9a4f-fe31ab35c44b)) è modello di F
 				-
