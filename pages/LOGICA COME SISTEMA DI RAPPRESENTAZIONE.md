@@ -34,6 +34,7 @@
 			- #### SEMANTICA
 				- nasce dalla necessita di associare un significato ai simboli
 				- necessario definire un interpretazione dei simboli che costituisce l'associazione tra la realtà del dominio in questione e il suo modello che lo rappresenta
+				- **non si può determinare a priori se una formula è vera o falsa**
 				- ### INTERPRETAZIONE
 					- dato un linguaggio del primo ordine definisce un insieme D tale che
 						- a ogni costante si associa un simbolo di D
