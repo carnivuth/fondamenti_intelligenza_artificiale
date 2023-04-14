@@ -57,4 +57,6 @@
 					- #### FBF LOGICAMENTE VALIDA
 						- se ogni ((6437cdea-3c6c-4a5a-9a4f-fe31ab35c44b)) è modello di F
 						- ##### esempio FBF logicamente valida
-							- `A OR!A`
+							- `A OR !A`
+				- ### CONSEGUENZA LOGICA
+					- dato un insieme di formule S una formula F è conseguenza logica se e solo se ogni interpretazione I che è un modello per S lo è anche per F
