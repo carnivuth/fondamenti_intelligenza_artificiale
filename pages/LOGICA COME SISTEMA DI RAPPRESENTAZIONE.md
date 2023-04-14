@@ -76,9 +76,14 @@
 					- #### SCOPO
 						- ottenere nuove formule sintatticamente corrette
 					- #### COMPLETEZZA
-						- se tutte le FBF che seguono logicamente dalla teoria possono essere dimostrati partendo dagli assiomi
+						- tutte le FBF che seguono logicamente dalla teoria possono essere dimostrati partendo dagli assiomi
 					- #### CORRETTEZZA
 						- i teoremi seguono logicamente dagli assiomi
+					- ##### ESEMPIO DI TEORIA ASSIOMATICA NON CORRETTA
+						- ![image.png](../assets/image_1681470940608_0.png)
+					- #### ABDUZIONE
+						- se una teoria del primo ordine applica regole di inverenza di induzione allora non è corretta
+					-
 				- ### DECIDIBILITÀ
 					- una teoria è decidibile se esiste un algoritmo in grado di stabilire in tempo finito se una FBF è un teorema o no
 					- il calcolo dei predicati del primo ordine è **semidecidibile** se la FBF è un teorema è in grado di dimostrarlo ma se non lo è non è detto che termini
