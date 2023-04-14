@@ -88,6 +88,9 @@
 					- il calcolo dei predicati del primo ordine è **semidecidibile** se la FBF è un teorema è in grado di dimostrarlo ma se non lo è non è detto che termini
 				- ### MONOTONICITÀ
 					- una teoria del primo ordine è monotona se l'aggiunta di nuovi assiomi non invalida i teoremi dedotti in precedenza
-					- #### ASSUNZIONE DI MONDO CHIUSO (CWA)
-						- se una formula atomica ground non è conseguenza logica di una teoria T allora `! A` si può considerare un teorema di T, se si aggiunfge l'assioma A allora non si è piu in grado di derivare `! A`
-						-
+				- #### ASSUNZIONE DI MONDO CHIUSO (CWA)
+					- se una formula atomica ground non è conseguenza logica di una teoria T allora `! A` si può considerare un teorema di T, se si aggiunfge l'assioma A allora non si è piu in grado di derivare `! A`
+					- questa assunzione rende la teoria **NON MONOTONA**
+					- questo concetto viene sfruttato in generale in molti contesti, si basa su un ipotesi di onniscenza della base di conoscenza (*se qualcosa non è dimostrabile allora è vero il contrario*)
+					-
+				-
