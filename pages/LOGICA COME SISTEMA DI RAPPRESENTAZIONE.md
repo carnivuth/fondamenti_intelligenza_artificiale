@@ -60,4 +60,7 @@
 							- `A OR !A`
 				- ### CONSEGUENZA LOGICA
 					- dato un insieme di formule S una formula F è conseguenza logica se e solo se **ogni interpretazione I che è un modello per S lo è anche per F**
-					- concetto fondamentale per derivare conoscenza dalla conoscenza
+					- concetto fondamentale per **derivare conoscenza dalla conoscenza**
+					- #### PROPRIETÀ
+						- se F è conseguenza logica di S allora `S U ~F` è **insoddisfacibile** (*ragionamento per assurdo*)
+						- utile anche per dimostrare che F è conseguenza logica di S
