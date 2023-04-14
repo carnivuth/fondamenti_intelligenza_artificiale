@@ -83,11 +83,11 @@
 						- ![image.png](../assets/image_1681470940608_0.png)
 					- #### ABDUZIONE
 						- se una teoria del primo ordine applica regole di inferenza di abduzione allora non è corretta
-						-
-						-
-					-
 				- ### DECIDIBILITÀ
 					- una teoria è decidibile se esiste un algoritmo in grado di stabilire in tempo finito se una FBF è un teorema o no
 					- il calcolo dei predicati del primo ordine è **semidecidibile** se la FBF è un teorema è in grado di dimostrarlo ma se non lo è non è detto che termini
-					-
-					-
+				- ### MONOTONICITÀ
+					- una teoria del primo ordine è monotona se l'aggiunta di nuovi assiomi non invalida i teoremi dedotti in precedenza
+					- #### ASSUNZIONE DI MONDO CHIUSO (CWA)
+						- se una formula atomica ground non è conseguenza logica di una teoria T allora `! A` si può considerare un teorema di T, se si aggiunfge l'assioma A allora non si è piu in grado di derivare `! A`
+						-
