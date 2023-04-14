@@ -56,4 +56,5 @@
 							- `A and !A`
 					- #### FBF LOGICAMENTE VALIDA
 						- se ogni ((6437cdea-3c6c-4a5a-9a4f-fe31ab35c44b)) è modello di F
-				-
+						- ##### esempio FBF logicamente valida
+							- `A OR!A`
