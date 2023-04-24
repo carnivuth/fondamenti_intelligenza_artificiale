@@ -1,0 +1,11 @@
+- logica piu semplice, molto meno espressiva
+- ### CLAUSOLE
+	- disgiunzione di letterali negati e non negati
+	- #### CLAUSOLE DEFINITE
+		- clausole in cui un **solo letterale è positivo**
+- ## DIMOSTRAZIONI IN LOGICA PROPOSIZIONALE
+	- ### PRINCIPIO DI RISOLUZIONE
+		- si applica a formule logiche espresse in **forma a clausole**
+		- regola di inferenza base usata nella logica
+		- ![image.png](../assets/image_1681472304157_0.png)
+		- crea una nuova clausola escludendo i letterali opposti

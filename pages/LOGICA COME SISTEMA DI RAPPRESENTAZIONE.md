@@ -1,3 +1,4 @@
+- (*si farà riferimento alla logica dei predicati di primo ordine*)
 - consente di analizzare le inferenze
   id:: 6437c54c-5e1f-4f75-b8cf-d2b8c81fc479
 - controllare la validità di predicati
@@ -18,15 +19,7 @@
 	- ottenere un sistema di rappresentazione della **conoscenza efficiente**
 - ## LOGICA CLASSICA
 	- due principali tipologie
-		- ### LOGICA PROPOSIZIONALE
-			- logica piu semplice, molto meno espressiva
-			- ### PRINCIPIO DI RISOLUZIONE
-				- si applica a formule logiche espresse in **forma a clausole**
-				- regola di inferenza base usata nella logica
-				- ![image.png](../assets/image_1681472304157_0.png)
-				- crea una nuova clausola escludendo i letterali opposti
-			- ### CLAUSOLE
-				- disgiunzione di letterali negati e non negati
-				- #### CLAUSOLE DEFINITE
-					- clausole in cui un **solo letterale è positivo**
+		- [[LOGICA PROPOSIZIONALE]]
 		- [[LOGICA DEI PREDICATI]]
+	- ### DIFFERENZE
+		- la principale differenza sta nella maggiore espressività nella logica dei predicati che consente di definire **variabili e quantificazioni**

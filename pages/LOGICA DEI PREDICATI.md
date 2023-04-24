@@ -1,6 +1,15 @@
 - possibile definire variabili e quantificazioni
-- #### SINTASSI
-	- ![image.png](../assets/image_1681377136450_0.png)![image.png](../assets/image_1681377136450_0.png)
+- # SINTASSI
+	- simboli di costante **C**
+	- simboli di funzione **F**
+	- simboli di predicato **P**
+	- simboli di variabile **V**
+	- connettori logici
+		- negazione **~**
+		- congiunzione **^**
+		- disgiunzione **v**
+		- implicazione **<-**
+		- equivalenza **<-->**
 	- ##### COSTANTI
 		- singole entità del dominio
 	- ##### VARIABILI
@@ -15,15 +24,22 @@
 		- dato f una funzione n-aria e t1....tn i termini f(t1....tn) è un termine
 		- una variabile è un termine
 		- una costante è un termine
-	- #### FORMULE BEN FORMATE (FBF)
-		- frasi sintatticamente corrette del linguaggio
-		- una FBF si può ottenere combinando formule atomiche del
+	- ## FORMULE BEN FORMATE (FBF)
+		- **frasi sintatticamente corrette del linguaggio**
+		- una FBF si può ottenere combinando formule atomiche e mediante i connettori logici
 	- #### FBF FORMA NORMALE DISGIUNTIVA PRENESSA
 		- disgiunzione di una o più FBF composte da congiunzioni di letterali; le quantificazioni compaiono tutte in testa a F
+		- ##### ESEMPIO
+			- ![image.png](../assets/image_1681825033786_0.png)
 	- #### FBF FORMA NORMALE CONGIUNTIVA PRENESSA
 		- congiunzione di una o più FBF composte da disgiunzioni di letterali; le quantificazioni compaiono tutte in testa ad F
-- #### SEMANTICA
-	- nasce dalla necessita di associare un significato ai simboli
+		- ##### ESEMPIO
+			- ![image.png](../assets/image_1681825055833_0.png)
+		- ##### NOMENCLATURE FORMULE
+			- ![image.png](../assets/image_1681825132779_0.png)
+- # SEMANTICA
+	- ogni sistema formale è la modellizzazione di una realtà
+	- nasce dalla necessita di **associare un significato ai simboli**
 	- necessario definire un interpretazione dei simboli che costituisce l'associazione tra la realtà del dominio in questione e il suo modello che lo rappresenta
 	- **non si può determinare a priori se una formula è vera o falsa**
 	- ### INTERPRETAZIONE
@@ -49,6 +65,8 @@
 			- se ogni ((6437cdea-3c6c-4a5a-9a4f-fe31ab35c44b)) è modello di F
 			- ##### esempio FBF logicamente valida
 				- `A OR !A`
+		- ### INSIEMI DI FORMULE SODDISFACIBILI
+			- un insieme di formule del primo ordine è soddisfacibile **se esiste un Interpretazione I che è modello per tutte le formule di S**
 	- ### CONSEGUENZA LOGICA
 		- dato un insieme di formule S una formula F è conseguenza logica se e solo se **ogni interpretazione I che è un modello per S lo è anche per F**
 		- concetto fondamentale per **derivare conoscenza dalla conoscenza**
@@ -56,7 +74,7 @@
 			- se F è conseguenza logica di S allora `S U ~F` è **insoddisfacibile** (*ragionamento per assurdo*)
 			- utile anche per dimostrare che F è conseguenza logica di S
 	- ### SISTEMI DI REFUTAZIONE
-		- sistemi che sfruttano le proprietà delle conseguenze logiche per dimostrarne la conseguenza logica
+		- sistemi che sfruttano le proprietà delle conseguenze logiche per dimostrare se una determinata formula è o no conseguenza logica (*dimostratori di teoremi*)
 		- ![image.png](../assets/image_1681469217343_0.png)
 	- ### TEORIA ASSIOMATICA
 		- teoria mirata a derivare da fatti ritenuti veri altri fatti veri
