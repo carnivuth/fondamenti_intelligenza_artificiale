@@ -1,12 +1,13 @@
 - logica piu semplice, molto meno espressiva
 - ### CLAUSOLE
+  id:: 643939d1-0c3a-436d-89a8-185a0bb44187
 	- disgiunzione di letterali negati e non negati
 	- #### CLAUSOLE DEFINITE
 		- clausole in cui un **solo letterale è positivo**
 - ## DIMOSTRAZIONI IN LOGICA PROPOSIZIONALE
 	- ### RISOLUZIONE
-		- ### PRINCIPIO DI RISOLUZIONE
-			- si applica a formule logiche espresse in **forma a clausole**
+		- #### PRINCIPIO DI RISOLUZIONE
+			- si applica a formule logiche espresse in forma a ((643939d1-0c3a-436d-89a8-185a0bb44187))
 			- regola di inferenza base usata nella logica
 			- ![image.png](../assets/image_1681472304157_0.png)
 			- crea una nuova clausola escludendo i letterali opposti
