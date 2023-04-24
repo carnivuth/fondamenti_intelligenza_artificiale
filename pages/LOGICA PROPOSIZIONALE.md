@@ -14,5 +14,7 @@
 			- regola di inferenza base usata nella logica
 			- ![image.png](../assets/image_1681472304157_0.png)
 			- crea una nuova clausola escludendo i letterali opposti
+			- si ha che C3 è ((64392ba2-1bc5-46a5-b086-6184ff3b783f)) di C1 e C2
+		- dati gli assiomi di una teoria `H` e una formula `F` derivando `H U ~F` si dimostra che `F` è un **teorema della teoria**
 	- ### FORWARD CHAINING
 	- ### BACKWARD CHAINING

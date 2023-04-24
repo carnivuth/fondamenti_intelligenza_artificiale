@@ -68,6 +68,7 @@
 		- ### INSIEMI DI FORMULE SODDISFACIBILI
 			- un insieme di formule del primo ordine è soddisfacibile **se esiste un Interpretazione I che è modello per tutte le formule di S**
 	- ### CONSEGUENZA LOGICA
+	  id:: 64392ba2-1bc5-46a5-b086-6184ff3b783f
 		- dato un insieme di formule S una formula F è conseguenza logica se e solo se **ogni interpretazione I che è un modello per S lo è anche per F**
 		- concetto fondamentale per **derivare conoscenza dalla conoscenza**
 		- #### PROPRIETÀ
