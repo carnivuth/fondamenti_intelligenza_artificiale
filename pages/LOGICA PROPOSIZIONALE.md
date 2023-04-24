@@ -2,7 +2,10 @@
 - ### CLAUSOLE
   id:: 643939d1-0c3a-436d-89a8-185a0bb44187
 	- disgiunzione di letterali negati e non negati
+	- ##### esempio
+		- `A1 v A2 v ... v AN v ~B1 v ... v ~BN`
 	- #### CLAUSOLE DEFINITE
+		- sottoinsieme delle clausole generali
 		- clausole in cui un **solo letterale è positivo**
 - ## DIMOSTRAZIONI IN LOGICA PROPOSIZIONALE
 	- ### RISOLUZIONE
