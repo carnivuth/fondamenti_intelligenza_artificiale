@@ -44,8 +44,4 @@
 			- la strategia **non è completa**
 			- ![image.png](../assets/image_1682582637711_0.png)
 		-
-	- ## CLAUSOLE DI HORN
-		- sottoinsieme della logica a clausole
-		- **hanno al piu un letterale positivo**
-		- ![image.png](../assets/image_1682583179643_0.png)
-		-
+	- [[CLAUSOLE DI HORN]]
