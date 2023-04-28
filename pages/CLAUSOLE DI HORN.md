@@ -9,7 +9,7 @@
 	- ad oggi uno dei problemi piu attuali è la trasformazione  da linguaggio naturale a linguaggio logico
 	- si sfruttano statistiche
 	-
-- ## ESEMPIO ESERCIZIO DI ESAME
+- ## ESEMPIO ESERCIZIO DI ESAME RISOLUZIONE
 	- ![image.png](../assets/image_1682584114152_0.png)
 	- ![image.png](../assets/image_1682584203876_0.png)
 	- ![image.png](../assets/image_1682584605717_0.png)
