@@ -5,3 +5,13 @@
 	-
 - ## RICERCA A*
 	- nella ricerca si espande fino a che non ci sono piu nodi da espandere
+- ## RICERCA AD APPROFONDIMENTO ITERATIVO
+	- ripete la ricerca depth first con limiti di profondita crescente
+	- ```
+	  depth=0
+	  do{
+	  result=depthfirstsearch(depth);
+	  depth ++;
+	  }while(result!=success  && result!=failure);
+	  ```
+	-
