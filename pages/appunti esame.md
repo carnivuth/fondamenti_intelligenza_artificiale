@@ -14,4 +14,5 @@
 	  depth ++;
 	  }while(result!=success  && result!=failure);
 	  ```
-	-
+	- vengono espansi nodi piu volte
+	- mette insieme depth first  e breat
