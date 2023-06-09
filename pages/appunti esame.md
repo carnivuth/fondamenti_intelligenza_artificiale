@@ -3,3 +3,5 @@
 - ## CSP - FORWARD CHECKING
 	- si considerano solo i vincoli legati alla variabile assegnata
 	-
+- ## RICERCA A*
+	- nella ricerca si espande fino a che non ci sono piu nodi da espandere
