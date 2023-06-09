@@ -1,0 +1,2 @@
+- ## EURISTICA AMMISSIBILE
+	- un euristica è ammissibile se è sempre minore del costo effettivo tra un nodo e il goal (ottimistica
