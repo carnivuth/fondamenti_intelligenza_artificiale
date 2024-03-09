@@ -1,1 +1,0 @@
-- il sistema in maniera autonoma analizza le informazioni e cataloga

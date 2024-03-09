@@ -1,1 +1,0 @@
-- si apprende osservando le esperienze passate e l'esito delle proprie scelte

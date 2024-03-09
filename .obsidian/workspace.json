@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "1c4392ed508dcf07",
+    "id": "c769d580dd559ea7",
     "type": "split",
     "children": [
       {
-        "id": "a873dc220cab8e0b",
+        "id": "4ef2615d02d9eb32",
         "type": "tabs",
         "children": [
           {
-            "id": "7b9288dffda31bc4",
+            "id": "e8f00387f391204a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2023-05-25.md",
+                "file": "pages/CLAUSOLE DI HORN.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "9a72b94e01b3140a",
+    "id": "61fe83f6a9d85bbf",
     "type": "split",
     "children": [
       {
-        "id": "5842832cdf8bebd3",
+        "id": "ef62158a77da4e9b",
         "type": "tabs",
         "children": [
           {
-            "id": "1dfaaf7480de3712",
+            "id": "ff1a9a23df979e04",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +43,7 @@
             }
           },
           {
-            "id": "abb254908a956e8f",
+            "id": "c0191401a007a839",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,15 +58,7 @@
             }
           },
           {
-            "id": "e712d3f78956cd9c",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
-            "id": "3c0e0fc3d17e2687",
+            "id": "2649afbf508cab5f",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -80,20 +72,20 @@
     "width": 300
   },
   "right": {
-    "id": "c4f97abc6d6b2782",
+    "id": "15937f390505ade8",
     "type": "split",
     "children": [
       {
-        "id": "6b86a675c7273bac",
+        "id": "c51013730eb107ad",
         "type": "tabs",
         "children": [
           {
-            "id": "7638ad97fb2ec3f4",
+            "id": "789cdc124ed2ea57",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2023-05-25.md",
+                "file": "pages/CLAUSOLE DI HORN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,19 +97,19 @@
             }
           },
           {
-            "id": "47a58452ba4198cc",
+            "id": "ef961890e7ee4d10",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "journals/2023-05-25.md",
+                "file": "pages/CLAUSOLE DI HORN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "f59b1cda47e43e0f",
+            "id": "167731fe581a5f36",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -128,44 +120,71 @@
             }
           },
           {
-            "id": "76fc3bcdc0cccc2e",
+            "id": "7a77e9ea0821cce2",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2023-05-25.md"
+                "file": "pages/CLAUSOLE DI HORN.md"
               }
             }
+          },
+          {
+            "id": "1bb78035f6cad6d0",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Apri selezione rapida": false,
-      "graph:Apri vista grafo": false,
-      "canvas:Crea nuova lavagna": false,
-      "daily-notes:Apri nota del giorno": false,
-      "templates:Inserisci modello": false,
-      "command-palette:Apri riquadro comandi": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "7b9288dffda31bc4",
+  "active": "e8f00387f391204a",
   "lastOpenFiles": [
-    "journals/2023_05_05.md",
-    "journals/2023-05-25.md",
-    "journals/2023-05-11.md",
-    "journals/2023_02_23.md",
-    "assets/image_1682584114152_0.png",
-    "assets/image_1682584605717_0.png",
-    "assets/image_1681377136450_0.png",
-    "assets/image_1680259082114_0.png",
-    "journals/2023_04_20.md",
-    "journals/2023_04_30.md",
-    "journals/2023_05_03.md"
+    "pages/backward.md",
+    "pages/appunti esame.md",
+    "pages/TECNICHE DI CONSISTENZA.md",
+    "pages/tipologie di apprendimento.md",
+    "pages/STUDENT CHALLENGE TABLUT.md",
+    "pages/STRATEGIE NON INFORMATE.md",
+    "pages/STRATEGIE DI RICERCA INFORMATE.md",
+    "pages/STRATEGIE DI RICERCA.md",
+    "pages/SPAZIO DEGLI STATI.md",
+    "pages/SODDISFACIMENTO DI VINCOLI.md",
+    "pages/RICERCA DELLE SOLUZIONi.md",
+    "pages/sitemi di apprendimento.md",
+    "pages/PROGRAMMA.md",
+    "pages/LOGICA PROPOSIZIONALE.md",
+    "pages/LOGICA DEI PREDICATI.md",
+    "pages/LOGICA COME SISTEMA DI RAPPRESENTAZIONE.md",
+    "pages/GIOCHI.md",
+    "pages/forward o data driven.md",
+    "pages/ESEMPIO PRESCRIBE DRUG.md",
+    "pages/CLAUSOLE DI HORN.md",
+    "pages/APPROCCIO TOP DOWN SIMBOLICO.md",
+    "pages/APPROCCIO BOTTOM UP SUBSIMBOLICO.md",
+    "pages/apprendimento supervisionato.md",
+    "pages/ALGORITMO DI SEARCH.md",
+    "pages/AGENTI RAZIONALI.md",
+    "pages/contents.md"
   ]
 }

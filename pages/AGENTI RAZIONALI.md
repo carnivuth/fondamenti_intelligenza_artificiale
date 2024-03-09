@@ -1,6 +1,30 @@
-- agenti in grado di interagire con un ambiente
-- ![image.png](../assets/image_1678352853974_0.png){:height 464, :width 539}
-- le azioni di un agente razionale sono le seguenti
+# AGENTI RAZIONALI
+
+agenti in grado di interagire con un ambiente
+
+![image.png](../assets/image_1678352853974_0.png)
+
+## ENGINE DI UN AGENTE RAZIONALE
+
+ il workflow di un agente razionale si puo riassumere come segue:
+
+```mermaid
+flowchart TD
+A[AGGIORNAMENTO DELLO STATO]
+B[FORMULAZIONE DI UN PROBLEMA]
+C[FORMULAZIONE DI UNA SOLUZIONE]
+A --> B
+B --> C
+C --> A
+```
+
+La ricerca di una soluzione viene eseguita per mezzo di algoritmi di ricerca
+
+
+
+
+
+--------------------------------
 	- #### aggiornamento dello stato
 		- l'agente osserva l'ambiente circostante e acquisisce informazioni
 	- #### generazione del problema

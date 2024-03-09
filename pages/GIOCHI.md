@@ -3,7 +3,7 @@
 - lo svolgersi del gioco può essere rappresentato come un albero con uno stato iniziale come radice (es configurazione della scacchiera di partenza)
 - ### costruzione dell'albero
 	- l'agente costruisce l'albero delle possibili scelte per determinare quale mossa eseguire
-	- alla prossima iterazione l'agente ricostrusce l'albero partendo dal nuovo stato iniziale
+	- alla prossima iterazione l'agente ricostruisce l'albero partendo dal nuovo stato iniziale
 - ## ALGORITMO MIN MAX
   id:: 641456dd-32f3-4ceb-b9b2-82dc044251c9
 	- pensato per determinare la strategia ottimale per trovare la prossima mossa

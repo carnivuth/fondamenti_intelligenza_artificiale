@@ -1,5 +1,13 @@
 {
+  "promptDelete": false,
+  "trashOption": "none",
+  "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
   "newFileFolderPath": "pages",
-  "newLinkFormat": "absolute"
+  "useMarkdownLinks": true,
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "assets",
+  "showInlineTitle": false,
+  "vimMode": true,
+  "showLineNumber": true
 }
