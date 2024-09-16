@@ -1,49 +1,52 @@
 {
   "main": {
-    "id": "c769d580dd559ea7",
+    "id": "4ad3d54786a30a03",
     "type": "split",
     "children": [
       {
-        "id": "4ef2615d02d9eb32",
+        "id": "38e50928bda9ceb1",
         "type": "tabs",
         "children": [
           {
-            "id": "e8f00387f391204a",
+            "id": "7743586634a77543",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/CLAUSOLE DI HORN.md",
+                "file": "pages/object_detection/HOUGH_TRANSFORM.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e46f3a6f0a4d6058",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/image_formation_acquisition/PERSPECTIVE_PROJECTION.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "61fe83f6a9d85bbf",
+    "id": "20f19cc29c31f728",
     "type": "split",
     "children": [
       {
-        "id": "ef62158a77da4e9b",
+        "id": "c42877c86dbc19d4",
         "type": "tabs",
         "children": [
           {
-            "id": "ff1a9a23df979e04",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
-            "id": "c0191401a007a839",
+            "id": "c858b676848362ac",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +61,7 @@
             }
           },
           {
-            "id": "2649afbf508cab5f",
+            "id": "3c2f2adc8a69494b",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,23 +72,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
-    "id": "15937f390505ade8",
+    "id": "d4a5dff365588e25",
     "type": "split",
     "children": [
       {
-        "id": "c51013730eb107ad",
+        "id": "34047a3702fe7354",
         "type": "tabs",
         "children": [
           {
-            "id": "789cdc124ed2ea57",
+            "id": "6378854ac78231a7",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/CLAUSOLE DI HORN.md",
+                "file": "pages/image_formation_acquisition/PERSPECTIVE_PROJECTION.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +101,19 @@
             }
           },
           {
-            "id": "ef961890e7ee4d10",
+            "id": "8464c9e02a158075",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pages/CLAUSOLE DI HORN.md",
+                "file": "pages/image_formation_acquisition/PERSPECTIVE_PROJECTION.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "167731fe581a5f36",
+            "id": "a100b932d374b3a1",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,17 +124,17 @@
             }
           },
           {
-            "id": "7a77e9ea0821cce2",
+            "id": "871e9e06bd53a318",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/CLAUSOLE DI HORN.md"
+                "file": "pages/image_formation_acquisition/PERSPECTIVE_PROJECTION.md"
               }
             }
           },
           {
-            "id": "1bb78035f6cad6d0",
+            "id": "0193e94d83154151",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -142,49 +146,48 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "oz-clear-unused-images:Clear Unused Images": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "oz-clear-unused-images:Clear Unused Images": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e8f00387f391204a",
+  "active": "e46f3a6f0a4d6058",
   "lastOpenFiles": [
-    "pages/backward.md",
-    "pages/appunti esame.md",
-    "pages/TECNICHE DI CONSISTENZA.md",
-    "pages/tipologie di apprendimento.md",
-    "pages/STUDENT CHALLENGE TABLUT.md",
-    "pages/STRATEGIE NON INFORMATE.md",
-    "pages/STRATEGIE DI RICERCA INFORMATE.md",
-    "pages/STRATEGIE DI RICERCA.md",
-    "pages/SPAZIO DEGLI STATI.md",
-    "pages/SODDISFACIMENTO DI VINCOLI.md",
-    "pages/RICERCA DELLE SOLUZIONi.md",
-    "pages/sitemi di apprendimento.md",
-    "pages/PROGRAMMA.md",
-    "pages/LOGICA PROPOSIZIONALE.md",
-    "pages/LOGICA DEI PREDICATI.md",
-    "pages/LOGICA COME SISTEMA DI RAPPRESENTAZIONE.md",
-    "pages/GIOCHI.md",
-    "pages/forward o data driven.md",
-    "pages/ESEMPIO PRESCRIBE DRUG.md",
-    "pages/CLAUSOLE DI HORN.md",
-    "pages/APPROCCIO TOP DOWN SIMBOLICO.md",
-    "pages/APPROCCIO BOTTOM UP SUBSIMBOLICO.md",
-    "pages/apprendimento supervisionato.md",
-    "pages/ALGORITMO DI SEARCH.md",
-    "pages/AGENTI RAZIONALI.md",
-    "pages/contents.md"
+    "Domande Orale.md",
+    "pages/image_filtering/MEDIAN_FILTER.md",
+    "pages/image_formation_acquisition/PERSPECTIVE_PROJECTION.md",
+    "pages/object_detection/TEMPLATE_PATTERN_MATCHING.md",
+    "pages/image_segmentation_blob_analysis/BLOB_ANALYSIS.md",
+    "IMAGE_SEGMENTATION_BLOB_ANALYSIS.canvas",
+    "OBJECT_DETECTION.canvas",
+    "pages/object_detection/SHAPE_BASED_MATCHING.md",
+    "pages/object_detection/GENERALIZED_HUGH_TRANSFORM.md",
+    "pages/object_detection/HOUGH_TRANSFORM.md",
+    "pages/image_filtering/BILATERAL_FILTER.md",
+    "pages/projects/sedPrH0p5",
+    "pages/projects/sed9Eiiat",
+    "pages/machine_learning_cv/sedg91rFA",
+    "pages/machine_learning_cv/sedeLFYyA",
+    "pages/machine_learning_cv/sed33hOrU",
+    "pages/machine_learning_cv/sedOwlzsO",
+    "pages/local_features/sed67cMyg",
+    "pages/local_features/sedgjnTnj",
+    "pages/image_formation_acquisition/sed30UYlC",
+    "pages/image_formation_acquisition/sedHOvxpC",
+    "MAIN.canvas",
+    "LOCAL_FEATURES.canvas",
+    "IMAGE_FILTERING.canvas"
   ]
 }
